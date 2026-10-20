@@ -1,0 +1,17 @@
+# Private/local data
+configs.txt
+*.txt
+!README.md
+!configs.example.txt
+vless_history*.csv
+vless_results*.csv
+vless_logs/
+*.log
+
+# Python/cache/OS
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db
